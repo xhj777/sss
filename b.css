@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    /* 添加背景图片 */
+    background-image: url('b.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+/* 页眉样式 */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+}
+
+/* 主要内容和侧边栏样式 */
+main {
+    display: flex;
+    margin: 20px 0;
+}
+
+section {
+    flex: 3; /* 占据大部分空间 */
+    padding: 20px;
+    background-color: #fff;
+}
+
+aside {
+    flex: 1; /* 占据小部分空间 */
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

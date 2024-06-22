@@ -1,0 +1,53 @@
+body {
+    margin-inline: ;
+    padding-inline-end: 0%;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color:rgb(222, 215, 172);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    width: 25%%; /* 边栏宽度 */
+    background-color: #f1f1f1;
+    padding: 25px;
+    min-height: 100vh; /* 使边栏与页面同高 */
+    position: sticky; /* 可选，使边栏在滚动时保持可见 */
+    top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: #daad64;
+}
+
+.sidebar ul li a:hover {
+    background-color: #5aefc3;
+}
+
+main {
+    flex: 1; /* 占据剩余空间 */
+    padding: 30px;
+    background-image: url('d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+}

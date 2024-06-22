@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    /* 添加背景图片 */
+    background-image: url('c.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+header {
+    padding: 20px;
+    background-color: #cdbe8d;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden; /* 清除浮动对父元素的影响 */
+}
+
+nav ul li {
+    float: left; /* 浮动列表项 */
+    margin-right: 10px; /* 列表项之间的间距 */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #aaa367;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+main {
+    padding: 20px;
+    overflow: hidden; /* 清除浮动对父元素的影响 */
+    background-image: url('c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+section {
+    float: right; /* 浮动主要内容区 */
+    width: 70%; /* 设定宽度 */
+    padding: 20px;
+}
+
+aside {
+    float: left; /* 浮动侧边栏 */
+    width: 25%; /* 设定宽度 */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+footer {
+    background-color: #efcf5b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both; /* 清除浮动，确保页脚位于下方 */
+}
+
+/* 清除浮动帮助类 */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
